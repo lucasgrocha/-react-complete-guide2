@@ -23,14 +23,14 @@ class App extends Component {
     showPersons: false
   }
 
-  static UNSAFE_getDerivedStateFromProps(props, state) {
+  static getDerivedStateFromProps(props, state) {
     console.log('[App.js] getDerivedStateFromProps', props)
     return state;
   }
   
-    UNSAFE_componentWillMount() {
-      console.log('[App.js] componentWilldMount')
-    }
+    // UNSAFE_componentWillMount() {
+    //   console.log('[App.js] componentWilldMount')
+    // }
 
   componentDidMount() {
     console.log('[App.js] componentDidMount')
