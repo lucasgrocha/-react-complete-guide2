@@ -17,9 +17,9 @@ class App extends Component {
 
   state = {
     persons: [
-      { id: 'fdgd3', name: 'Max', age: '28' },
-      { id: 'g23f', name: 'Manu', age: '29' },
-      { id: '23ff', name: 'Stephanie', age: '26' }
+      { id: 'fdgd3', name: 'Max', age: 28 },
+      { id: 'g23f', name: 'Manu', age: 29 },
+      { id: '23ff', name: 'Stephanie', age: 26 }
     ],
     otherState: 'some other value',
     showPersons: false,
